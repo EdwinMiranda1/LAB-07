@@ -1,21 +1,16 @@
 import './App.css'
-import { List } from './components/List'
-import { WapperList } from './components/WrapperList'
-// import { Button }  from './components/Button'
+import RandomComponent from './components/RandomComponent';
+
 
 function App() {
 
   return (
     <>
+   <div className="App">
+      <h1>Numero Random</h1>
+      <RandomComponent/>
+    </div>
       
-      <WapperList>
-      <ul>
-          <li> Pan </li>
-          <li> Queso </li>
-          <li> Mantequilla </li>
-      </ul>  
-      </WapperList>  
-            
     </>
   )
 }
