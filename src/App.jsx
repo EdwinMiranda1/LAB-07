@@ -1,14 +1,15 @@
 import './App.css'
-import { Button }  from './components/Button'
+import RandomComponent from "./components/RandomComponent";
+
 
 function App() {
 
   return (
     <>
-      <div>
-            <h1>Contador de 5 en 5</h1>
-            <Button />
-        </div>
+    <div className="App">
+      <h1>Componente Random</h1>
+      <RandomComponent/>
+    </div>
       
     </>
   )
