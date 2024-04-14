@@ -1,5 +1,5 @@
 import './App.css'
-import RandomComponent from './components/RandomComponent';
+import CompWithProps from './components/CompWithProps';
 
 
 function App() {
@@ -7,12 +7,13 @@ function App() {
   return (
     <>
    <div className="App">
-      <h1>Numero Random</h1>
-      <RandomComponent/>
+      <h1>HOLA DESDE VITE</h1>
+      
+      <CompWithProps/>
     </div>
       
     </>
-  )
-}
+  );
+};
 
 export default App
