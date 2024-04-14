@@ -1,23 +1,19 @@
 import './App.css'
-import { List } from './components/List'
-import { WapperList } from './components/WrapperList'
-// import { Button }  from './components/Button'
+import CompWithProps from './components/CompWithProps';
+
 
 function App() {
 
   return (
     <>
+   <div className="App">
+      <h1>HOLA DESDE VITE</h1>
       
-      <WapperList>
-      <ul>
-          <li> Pan </li>
-          <li> Queso </li>
-          <li> Mantequilla </li>
-      </ul>  
-      </WapperList>  
-            
+      <CompWithProps/>
+    </div>
+      
     </>
-  )
-}
+  );
+};
 
 export default App
