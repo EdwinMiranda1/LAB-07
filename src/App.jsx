@@ -1,5 +1,5 @@
 import './App.css'
-import RandomComponent from "./components/RandomComponent";
+import { Button } from './components/Button';
 
 
 function App() {
@@ -7,8 +7,8 @@ function App() {
   return (
     <>
     <div className="App">
-      <h1>Componente Random</h1>
-      <RandomComponent/>
+      <h1>Numero alerta</h1>
+      <Button/>
     </div>
       
     </>
