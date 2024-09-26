@@ -1,21 +1,16 @@
 import './App.css'
-import { List } from './components/List'
-import { WapperList } from './components/WrapperList'
-// import { Button }  from './components/Button'
+import { Button } from './components/Button';
+
 
 function App() {
 
   return (
     <>
+    <div className="App">
+      <h1>Numero alerta</h1>
+      <Button/>
+    </div>
       
-      <WapperList>
-      <ul>
-          <li> Pan </li>
-          <li> Queso </li>
-          <li> Mantequilla </li>
-      </ul>  
-      </WapperList>  
-            
     </>
   )
 }
